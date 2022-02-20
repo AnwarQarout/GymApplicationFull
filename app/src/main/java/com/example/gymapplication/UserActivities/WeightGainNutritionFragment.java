@@ -153,7 +153,7 @@ public class WeightGainNutritionFragment extends Fragment {
     }
 
     public void sendRequestAndGetNutrition(){
-        String URL = "http://"+ip+"/gymproject/getNutrition.php?selectedMembership=" + selectedMembership;
+        String URL = "http://"+ip+"/gymproject/user/getNutrition.php?selectedMembership=" + selectedMembership;
         RequestQueue requestQueue = Volley.newRequestQueue(getActivity().getBaseContext());
         Gson gson = new Gson();
         JsonArrayRequest request = new JsonArrayRequest(Request.Method.GET, URL,

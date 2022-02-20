@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    layout_height="200dp"
+    layout_width="200dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    android:background="@color/colorButton">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#454242">
+
+        <TextView
+            android:id="@+id/workoutname"
+            android:layout_width="193dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="193dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/bubbler_one"
+            android:gravity="center"
+            android:text="dsadsadsa"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="normal|bold|italic" />
+
+        <ImageView
+            android:id="@+id/workoutImagecard"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="207dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

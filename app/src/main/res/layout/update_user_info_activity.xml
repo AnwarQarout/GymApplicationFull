@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/containerStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivities.UpdateUserInfoActivity">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/UsernameET"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/usernameET"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/PasswordET"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/passwordET" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/NameET"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nameET" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/PhoneET"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/phoneET" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/HeightET"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/heightET" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/WeightET"
+        style="@style/editTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/weightET" />
+
+    <Button
+        android:id="@+id/applyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="applyBtnClick"
+        android:text="@string/apply_changes"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="200dp"/>
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gymapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GymApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GymApplication"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".ManagerActivities.Add_Employee"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.All_Recycle"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.editform"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.workoutsfirst"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.workout_details"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.nutrition_program_details"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.nutrition_programs"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.Members"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.details"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.Empolyee"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.memberDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerActivities.MangerMainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".EmployeeActivities.EditNutrition"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.AddNutrition"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.NutritionDetails"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.AllNutritions"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.EditWorkout"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.workoutsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.AddWorkOuts"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.workouts"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.MembershipMainActivity"
+            android:exported="false"/>
+
+
+        <activity
+            android:name=".EmployeeActivities.MemberDetails"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.MemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.MemberShipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.AddMember"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeActivities.EmployeeHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivities.WeightGainWorkoutActivity"
+            android:exported="false"
+            android:label="Your Weight Gain Workouts" />
+        <activity
+            android:name=".UserActivities.MassGainWorkoutActivity"
+            android:exported="false"
+            android:label="Your Mass Gain Workouts" />
+        <activity
+            android:name=".UserActivities.WeightLossWorkoutActivity"
+            android:exported="false"
+            android:label="Your Weight Loss Workouts" />
+        <activity
+            android:name=".UserActivities.MassGainNutritionActivity"
+            android:exported="false"
+            android:label="Your Mass Gain Meals" />
+        <activity
+            android:name=".UserActivities.WeightGainNutritionActivity"
+            android:exported="false"
+            android:label="Your Weight Gain Meals" />
+        <activity
+            android:name=".UserActivities.WeightLossNutritionActivity"
+            android:exported="false"
+            android:label="Your Weight Loss Meals" />
+        <activity
+            android:name=".UserActivities.WeightLossActivity"
+            android:exported="false"
+            android:label="Weight Loss" />
+        <activity
+            android:name=".UserActivities.WeightGainActivity"
+            android:exported="false"
+            android:label="Weight Gain" />
+        <activity
+            android:name=".UserActivities.WeightLossActivity"
+            android:exported="false"
+            android:label="Weight Loss"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".UserActivities.MassGainActivity"
+            android:exported="false"
+            android:label="Mass Gain" />
+        <activity
+            android:name=".UserActivities.UserChoice"
+            android:exported="false"
+            android:label="Choose A Membership" />
+        <activity
+            android:name=".UserActivities.userActivity"
+            android:exported="false"
+            android:label="GymApplication User" />
+        <activity
+            android:name=".UserActivities.loginActivity"
+            android:exported="true"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserActivities.UpdateUserInfoActivity"
+            android:exported="false"
+            android:label="Update Your Info" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

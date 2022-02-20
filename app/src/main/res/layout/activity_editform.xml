@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".ManagerActivities.editform">
+
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Employee Salary:"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="70dp"
+            style="@style/textViewStyle"
+            />
+
+        <EditText
+
+            android:id="@+id/edtSalary"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:height="40dp"
+
+            android:hint="enter new salary "
+            android:layout_marginTop="10dp"
+            android:minHeight="48dp"
+           style="@style/editTextStyle"
+            />
+
+
+        <Button
+            android:id="@+id/editButt"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Edit"
+            style="@style/buttonStyle"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="20dp"
+             />
+
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?php
+if($_SERVER['REQUEST_METHOD']=='POST'){
+
+include 'DatabaseConfig.php';
+
+ $con = mysqli_connect($HostName,$HostUser,$HostPass,$DatabaseName);
+
+$user_name = $_POST['UserName'];
+    $password = $_POST['Password'];
+    $name = $_POST['Name'];
+    $phone = $_POST['Phone'];
+    $height = $_POST['Height'];
+    $weight = $_POST['Weight'];
+
+$Sql_Query = "UPDATE member SET name= '$S_name', phone_number = '$S_Phone', class = '$S_Class' WHERE id = $id";
+
+ if(mysqli_query($con,$Sql_Query))
+{
+ echo 'Record Updated Successfully';
+}
+else
+{
+ echo 'Something went wrong';
+ }
+ }
+ mysqli_close($con);
+?>

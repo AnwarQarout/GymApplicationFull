@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center"
+    tools:context=".EmployeeActivities.MemberActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textViewStyle"
+            android:layout_width="407dp"
+            android:layout_height="61dp"
+            android:text="Members"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/member_recycler"
+            android:layout_width="359dp"
+            android:layout_height="412dp"
+            android:scrollbars="vertical"/>
+
+        <Button
+            android:id="@+id/openAddForm"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="150dp"
+            style="@style/buttonStyle"
+            android:text="Add"
+
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".MangerMainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="130dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="vertical"
+        android:id="@+id/employee_recycler"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        style="@style/buttonStyle"
+
+        android:onClick="addEmployee"
+        app:layout_constraintBottom_toTopOf="@+id/employee_recycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="add"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

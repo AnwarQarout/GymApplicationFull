@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ManagerActivities.Add_Employee">
+
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add Employee"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="6dp"
+        android:text="Name: " />
+
+    <EditText
+        android:id="@+id/addName"
+        style="@style/editTextStyle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="40dp"
+        android:hint="Enter Employee Name"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="6dp"
+        android:text="Employee User Name:"
+        style="@style/textViewStyle" />
+
+    <EditText
+        android:id="@+id/addUserName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="40dp"
+        style="@style/editTextStyle"
+        android:hint="Enter Employee Name"
+        android:minHeight="48dp"
+ />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="6dp"
+        android:text="Password:"
+      style="@style/textViewStyle" />
+
+    <EditText
+        android:id="@+id/addPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="40dp"
+        android:hint="Enter Password"
+        android:minHeight="48dp"
+        style="@style/editTextStyle"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="6dp"
+        android:text="Employee Phone:"
+        style="@style/textViewStyle" />
+
+    <EditText
+        android:id="@+id/addPhone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="40dp"
+        style="@style/editTextStyle"
+        android:hint="Enter Employee Phone"
+        android:minHeight="48dp"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="6dp"
+        android:text="Employee Salary:"
+        style="@style/textViewStyle"/>
+
+    <EditText
+        android:id="@+id/addSalary"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="40dp"
+         style="@style/editTextStyle"
+        android:hint="Enter Employee Salary"
+        android:minHeight="48dp"
+    />
+
+
+    <Button
+        android:id="@+id/addEmp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#94a3b8"
+        android:gravity="center"
+        android:onClick="Add"
+        android:text="Add"
+        style="@style/buttonStyle"
+
+       />
+
+
+</LinearLayout>

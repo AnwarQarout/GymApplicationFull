@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".ManagerActivities.MangerMainActivity">
+
+    <TextView
+        style="@style/textViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="35dp"
+        android:text="Welcome To Admin"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/manageEmp"
+        style="@style/buttonStyle"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="60dp"
+        android:onClick="manageemployee"
+        android:text="Manage Employee" />
+
+    <Button
+        android:id="@+id/workout"
+        style="@style/buttonStyle"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="15dp"
+        android:onClick="workouts"
+        android:text="Workouts" />
+
+    <Button
+        android:id="@+id/naturalp"
+        style="@style/buttonStyle"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="15dp"
+        android:onClick="nutrition_program"
+
+        android:text="Natural Program" />
+
+    <Button
+        android:id="@+id/members"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="15dp"
+        style="@style/buttonStyle"
+        android:onClick="memberdetails"
+        android:text="Members"
+     />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="90dp"
+        android:text="Log Out"
+        android:onClick="logout"
+        style="@style/buttonStyle" />
+
+
+</LinearLayout>

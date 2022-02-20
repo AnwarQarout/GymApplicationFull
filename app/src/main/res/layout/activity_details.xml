@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".details">
+
+
+    <TextView
+        android:id="@+id/txtId"
+        style="@style/textViewStyle"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtName"
+        style="@style/textViewStyle"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        style="@style/textViewStyle"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtPassword"
+        style="@style/textViewStyle"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        style="@style/textViewStyle"
+        android:layout_width="295dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtSalary"
+        android:layout_width="295dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+      style="@style/textViewStyle"
+        android:gravity="center"
+       />
+
+    <Button
+        android:id="@+id/editEmp"
+        style="@style/buttonStyle"
+        android:layout_gravity=""
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:onClick="edit"
+        android:text="Edit" />
+
+
+</LinearLayout>

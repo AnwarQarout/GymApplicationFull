@@ -44,20 +44,20 @@ public class MassGainNutritionActivity extends AppCompatActivity {
             System.out.println(tempList.get(i));
             JsonObject jsonObject = gson.fromJson(tempList.get(i),JsonObject.class);
             if(jsonObject.get("type").toString().replaceAll("\"","").equals("breakfast")) {
-                names[0] = jsonObject.get("name").toString().replaceAll("\"", "");
-                types[0] = jsonObject.get("type").toString().replaceAll("\"", "");
-                urls[0] = jsonObject.get("image").toString().replaceAll("\"", "");
+                names[i] = jsonObject.get("name").toString().replaceAll("\"", "");
+                types[i] = jsonObject.get("type").toString().replaceAll("\"", "");
+                urls[i] = jsonObject.get("image").toString().replaceAll("\"", "");
             }
             else if(jsonObject.get("type").toString().replaceAll("\"","").equals("lunch")) {
-                names[1] = jsonObject.get("name").toString().replaceAll("\"", "");
-                types[1] = jsonObject.get("type").toString().replaceAll("\"", "");
-                urls[1] = jsonObject.get("image").toString().replaceAll("\"", "");
+                names[i] = jsonObject.get("name").toString().replaceAll("\"", "");
+                types[i] = jsonObject.get("type").toString().replaceAll("\"", "");
+                urls[i] = jsonObject.get("image").toString().replaceAll("\"", "");
             }
 
             else if(jsonObject.get("type").toString().replaceAll("\"","").equals("dinner")) {
-                names[2] = jsonObject.get("name").toString().replaceAll("\"", "");
-                types[2] = jsonObject.get("type").toString().replaceAll("\"", "");
-                urls[2] = jsonObject.get("image").toString().replaceAll("\"", "");
+                names[i] = jsonObject.get("name").toString().replaceAll("\"", "");
+                types[i] = jsonObject.get("type").toString().replaceAll("\"", "");
+                urls[i] = jsonObject.get("image").toString().replaceAll("\"", "");
             }
 
           /*  NutritionModel nutritionModel = new NutritionModel(jsonObject.get("name").toString().replaceAll("\"",""),jsonObject.get("type").toString().replaceAll("\"",""));
